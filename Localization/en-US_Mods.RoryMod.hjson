@@ -1,0 +1,29 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	TheSlicer: {
+		DisplayName: The Slicer
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	ExampleMagicWeapon: {
+		DisplayName: Example Magic Weapon
+		Tooltip: ""
+	}
+
+	EvokedMidnight: {
+		DisplayName: Evoked Midnight
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	SparklingBall.DisplayName: Sparkling Ball
+	ExampleSwingingEnergySwordProjectile.DisplayName: Example Swinging Energy Sword Projectile
+	DarkTear.DisplayName: Dark Tear
+}

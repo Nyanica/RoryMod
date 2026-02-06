@@ -1,0 +1,3 @@
+displayName = Rory Mod
+author = Rory
+version = 0.1
