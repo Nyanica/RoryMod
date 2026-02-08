@@ -17,7 +17,7 @@ namespace RoryMod.Content.Items.Weapons
 			Item.DefaultToStaff(ModContent.ProjectileType<DarkTear>(), 13, 25, 8);
 			//Item.DefaultToStaff(ProjectileID.BloodShot, 16, 25, 12);
 			Item.staff[Type] = true; // This makes the useStyle animate as a staff instead of as a gun.
-			Item.UseSound = SoundID.Item71;
+			Item.UseSound = SoundID.Item43;
 
 			// A special method that sets the damage, knockback, and bonus critical strike chance.
 			// This weapon has a crit of 32% which is added to the players default crit chance of 4%
