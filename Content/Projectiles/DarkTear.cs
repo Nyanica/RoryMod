@@ -18,7 +18,7 @@ namespace RoryMod.Content.Projectiles
 			Projectile.penetrate = 2;
 			Projectile.timeLeft = 600;
 			Projectile.aiStyle = 27;
-			Projectile.light = 1.1f;
+			Projectile.light = 1.05f;
 			Projectile.rotation = Projectile.velocity.ToRotation();
 		}
 
