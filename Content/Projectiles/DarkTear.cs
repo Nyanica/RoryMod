@@ -15,13 +15,21 @@ namespace RoryMod.Content.Projectiles
 			Projectile.height = 16;
 			Projectile.friendly = true;
 			Projectile.DamageType = DamageClass.Magic;
-			Projectile.penetrate = 5;
+			Projectile.penetrate = 2;
 			Projectile.timeLeft = 600;
 			Projectile.aiStyle = 27;
 			Projectile.light = 1.1f;
-			Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver2;
+			Projectile.rotation = Projectile.velocity.ToRotation();
 		}
 
+		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+		{
+			if(hit.Crit)
+			{
+				
+			}
+
+		}
 		public override bool OnTileCollide(Vector2 oldVelocity) {
 			Projectile.Kill();
 			return false;

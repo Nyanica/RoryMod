@@ -3,6 +3,7 @@ using Terraria.Enums;
 using Terraria.ID;
 using Terraria.ModLoader;
 using RoryMod.Content.Projectiles;
+using System.IO.Pipes;
 
 namespace RoryMod.Content.Items.Weapons
 {
@@ -13,16 +14,16 @@ namespace RoryMod.Content.Items.Weapons
 			// DefaultToStaff handles setting various Item values that magic staff weapons use.
 			// Hover over DefaultToStaff in Visual Studio to read the documentation!
 			// Shoot a black bolt, also known as the projectile shot from the onyx blaster.
-			Item.DefaultToStaff(ModContent.ProjectileType<DarkTear>(), 16, 25, 12);
+			Item.DefaultToStaff(ModContent.ProjectileType<DarkTear>(), 13, 25, 8);
 			//Item.DefaultToStaff(ProjectileID.BloodShot, 16, 25, 12);
 			Item.staff[Type] = true; // This makes the useStyle animate as a staff instead of as a gun.
 			Item.UseSound = SoundID.Item71;
 
 			// A special method that sets the damage, knockback, and bonus critical strike chance.
 			// This weapon has a crit of 32% which is added to the players default crit chance of 4%
-			Item.SetWeaponValues(14, 5, 21);
+			Item.SetWeaponValues(13, 5, 17);
 
-			Item.SetShopValues(ItemRarityColor.Blue1, 10000);
+			Item.SetShopValues(ItemRarityColor.Blue1, 3000);
 		}
 
 		public override void ModifyManaCost(Player player, ref float reduce, ref float mult) {
