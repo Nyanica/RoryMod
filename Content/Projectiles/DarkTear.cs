@@ -24,11 +24,13 @@ namespace RoryMod.Content.Projectiles
 
 		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
 		{
-			if(hit.Crit)
-			{
-				
+			if(hit.Crit){
+				if (Projectile.owner == Main.myPlayer && !IsChild)
+				{
+					pass;
+				}
+			Projectile.damage = (int)(Projectile.damage * 0.7f);
 			}
-
 		}
 		public override bool OnTileCollide(Vector2 oldVelocity) {
 			Projectile.Kill();
