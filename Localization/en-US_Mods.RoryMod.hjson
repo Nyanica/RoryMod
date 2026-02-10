@@ -20,10 +20,18 @@ Items: {
 		DisplayName: Evoked Midnight
 		Tooltip: ""
 	}
+
+	VeinRipper: {
+		Tooltip: ""
+		DisplayName: Vein Ripper
+	}
 }
 
 Projectiles: {
 	SparklingBall.DisplayName: Sparkling Ball
 	ExampleSwingingEnergySwordProjectile.DisplayName: Example Swinging Energy Sword Projectile
 	DarkTear.DisplayName: Dark Tear
+	BloodyTear.DisplayName: Bloody Tear
+	DarkSlash.DisplayName: Dark Slash
+	BloodySlash.DisplayName: Bloody Slash
 }
