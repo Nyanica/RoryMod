@@ -16,8 +16,8 @@ namespace RoryMod.Content.Items.Weapons
 			// Hover over DefaultToStaff in Visual Studio to read the documentation!
 			// Shoot a black bolt, also known as the projectile shot from the onyx blaster.
 			Item.DefaultToStaff(ModContent.ProjectileType<DarkTear>(), 6, 25, 8);
-			Item.width = 40;
-			Item.height = 40;
+			Item.width = 42;
+			Item.height = 42;
 			//Item.DefaultToStaff(ProjectileID.BloodShot, 16, 25, 12);
 			Item.staff[Type] = true; // This makes the useStyle animate as a staff instead of as a gun.
 			Item.UseSound = SoundID.Item73;

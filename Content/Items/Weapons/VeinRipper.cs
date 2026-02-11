@@ -17,8 +17,8 @@ namespace RoryMod.Content.Items.Weapons
 			//Item.DefaultToStaff(ModContent.ProjectileType<DarkTear>(), 6, 25, 8);
 			Item.DefaultToStaff(ModContent.ProjectileType<BloodyTear>(), 18, 34, 10);
 			//Item.DefaultToStaff(ProjectileID.BloodShot, 16, 25, 8);
-			Item.width = 40;
-			Item.height = 40;
+			Item.width = 42;
+			Item.height = 42;
 			Item.staff[Type] = true; // This makes the useStyle animate as a staff instead of as a gun.
 			Item.UseSound = SoundID.Item73;
 
