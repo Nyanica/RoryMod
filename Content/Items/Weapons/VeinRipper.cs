@@ -4,6 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using RoryMod.Content.Projectiles;
 using System.IO.Pipes;
+using Microsoft.Xna.Framework;
 
 namespace RoryMod.Content.Items.Weapons
 {
@@ -27,6 +28,11 @@ namespace RoryMod.Content.Items.Weapons
 			Item.SetWeaponValues(16, 5, 17);
 
 			Item.SetShopValues(ItemRarityColor.Blue1, 3000);
+		}
+
+		public override Vector2? HoldoutOffset()
+		{
+			return new Vector2(10f, 0f);
 		}
 
         public override void AddRecipes()
