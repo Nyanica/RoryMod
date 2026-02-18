@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using RoryMod.Content.Projectiles;
 using System.IO.Pipes;
-using System.Numerics;
+using Microsoft.Xna.Framework;
 
 namespace RoryMod.Content.Items.Weapons
 {
@@ -38,5 +38,10 @@ namespace RoryMod.Content.Items.Weapons
             recipe.Register();
         }
 
+		public override Vector2? HoldoutOffset() {
+			// Testing stuff
+			
+			return new Vector2(10f, 0f);
+		}
     }
 }
