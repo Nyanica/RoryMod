@@ -4,6 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using RoryMod.Content.Projectiles;
 using System.IO.Pipes;
+using Microsoft.Xna.Framework;
 
 namespace RoryMod.Content.Items.Weapons
 {
@@ -17,8 +18,8 @@ namespace RoryMod.Content.Items.Weapons
 			//Item.DefaultToStaff(ModContent.ProjectileType<DarkTear>(), 6, 25, 8);
 			Item.DefaultToStaff(ModContent.ProjectileType<BloodyTear>(), 18, 34, 10);
 			//Item.DefaultToStaff(ProjectileID.BloodShot, 16, 25, 8);
-			Item.width = 40;
-			Item.height = 40;
+			Item.width = 42;
+			Item.height = 42;
 			Item.staff[Type] = true; // This makes the useStyle animate as a staff instead of as a gun.
 			Item.UseSound = SoundID.Item73;
 
@@ -27,6 +28,11 @@ namespace RoryMod.Content.Items.Weapons
 			Item.SetWeaponValues(16, 5, 17);
 
 			Item.SetShopValues(ItemRarityColor.Blue1, 3000);
+		}
+
+		public override Vector2? HoldoutOffset()
+		{
+			return new Vector2(10f, 0f);
 		}
 
         public override void AddRecipes()
