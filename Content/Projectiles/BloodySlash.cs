@@ -27,7 +27,7 @@ namespace RoryMod.Content.Projectiles
             Projectile.tileCollide = false;
             Projectile.friendly = true;
             Projectile.timeLeft = 31;
-            Projectile.penetrate = 5;
+            Projectile.penetrate = -1;
             Projectile.alpha = 80;
             Projectile.usesIDStaticNPCImmunity = true;
             Projectile.idStaticNPCHitCooldown = 15;
@@ -55,7 +55,7 @@ namespace RoryMod.Content.Projectiles
 
             if (Projectile.ai[0] == 0f)
             {
-                SoundEngine.PlaySound(SoundID.Item21);
+                SoundEngine.PlaySound(SoundID.Item21, Projectile.Center);
             }
 
             Projectile.ai[0] += 1f;

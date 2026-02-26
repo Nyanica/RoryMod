@@ -59,7 +59,6 @@ namespace RoryMod.Content.Projectiles
 															0,
 															Projectile.owner);
 				}
-				Projectile.damage = (int)(Projectile.damage * 0.7f);
 			}
 		}
 		public override bool OnTileCollide(Vector2 oldVelocity) {

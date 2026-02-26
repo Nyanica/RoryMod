@@ -25,6 +25,16 @@ Items: {
 		Tooltip: ""
 		DisplayName: Vein Ripper
 	}
+
+	TrueSkyFracture: {
+		Tooltip: ""
+		DisplayName: True Sky Fracture
+	}
+
+	TerraHorizon: {
+		DisplayName: Terra Horizon
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -34,4 +44,5 @@ Projectiles: {
 	BloodyTear.DisplayName: Bloody Tear
 	DarkSlash.DisplayName: Dark Slash
 	BloodySlash.DisplayName: Bloody Slash
+	SkyFractureProjectile.DisplayName: Sky Fracture Projectile
 }
