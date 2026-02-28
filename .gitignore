@@ -6,3 +6,11 @@
 .vs/rorys-mod-tml/FileContentIndex/aaf68a68-9a77-4b8c-83b2-0af6c4ba9276.vsidx
 .vs/rorys-mod-tml/FileContentIndex/85d893d1-53fd-4a32-aad5-bcf82479161b.vsidx
 .vs/rorys-mod-tml/FileContentIndex/30f76159-72a9-4afb-8831-1ce5fdedc945.vsidx
+obj/RoryMod.csproj.nuget.g.props
+obj/RoryMod.csproj.nuget.dgspec.json
+obj/project.nuget.cache
+obj/project.assets.json
+obj/Debug/net8.0/RoryMod.GeneratedMSBuildEditorConfig.editorconfig
+obj/Debug/net8.0/RoryMod.csproj.AssemblyReference.cache
+obj/Debug/net8.0/RoryMod.assets.cache
+obj/Debug/net8.0/RoryMod.AssemblyInfoInputs.cache
