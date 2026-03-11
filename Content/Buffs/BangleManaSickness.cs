@@ -21,8 +21,10 @@ namespace RoryMod.Content.Buffs
 
         public override void Update(Player player, ref int buffIndex)
         {
+            /*
             int manaSickIndex = player.FindBuffIndex(BuffID.ManaSickness);
             if (manaSickIndex != -1)
+                // if manasick
             {
 
                 bool extraFrame = manaSickIndex < buffIndex;
@@ -37,6 +39,9 @@ namespace RoryMod.Content.Buffs
 
                 player.buffTime[buffIndex] = newBuffTime;
             }
+            */
+
+
 
         }
 

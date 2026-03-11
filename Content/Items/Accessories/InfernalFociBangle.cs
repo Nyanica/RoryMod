@@ -36,9 +36,9 @@ namespace RoryMod.Content.Items.Accessories
             // +20 mana
             int manaBonus = 20;
             player.ManaEffect(manaBonus);
+            Player.manaSickLessDmg = 0.15f;
 
 
-            
         }
 
     }
