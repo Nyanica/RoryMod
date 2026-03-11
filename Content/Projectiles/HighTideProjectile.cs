@@ -10,16 +10,15 @@ using Terraria.ModLoader;
 namespace RoryMod.Content.Projectiles
 {
 	// This is a copy of the Excalibur's projectile
-	public class ExampleSwingingEnergySwordProjectile : ModProjectile
+	public class HighTideProjectile : ModProjectile
 	{
-		// We could use a vanilla texture if we want instead of supplying our own.
-		// public override string Texture => "Terraria/Images/Projectile_" + ProjectileID.Excalibur;
+		
 
 		public override void SetStaticDefaults() {
 			// If a Jellyfish is zapping and we attack it with this projectile, it will deal damage to us.
 			// This set has the projectiles for the Night's Edge, Excalibur, Terra Blade (close range), and The Horseman's Blade (close range).
 			// This set does not have the True Night's Edge, True Excalibur, or the long range Terra Beam projectiles.
-			// ProjectileID.Sets.AllowsContactDamageFromJellyfish[Type] = true;
+			ProjectileID.Sets.AllowsContactDamageFromJellyfish[Type] = true;
 			Main.projFrames[Type] = 4; // This projectile has 4 frames.
 		}
 
@@ -29,7 +28,7 @@ namespace RoryMod.Content.Projectiles
 			Projectile.height = 16;
 			Projectile.friendly = true;
 			Projectile.DamageType = DamageClass.Melee;
-			Projectile.penetrate = 3; // The projectile can hit 3 enemies.
+			Projectile.penetrate = 6; // The projectile can hit 6 enemies.
 			Projectile.usesLocalNPCImmunity = true;
 			Projectile.localNPCHitCooldown = -1;
 			Projectile.tileCollide = false;

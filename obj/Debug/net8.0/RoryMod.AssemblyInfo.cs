@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoryMod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a83133c96d6c494dc5adbdd5c4950a2eed5d1ccf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3d2c17059a4ca43cc81431d8f93e8cf212ac5a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoryMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoryMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

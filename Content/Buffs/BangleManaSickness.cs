@@ -22,6 +22,7 @@ namespace RoryMod.Content.Buffs
         public override void Update(Player player, ref int buffIndex)
         {
             int manaSickIndex = player.FindBuffIndex(BuffID.ManaSickness);
+
             if (manaSickIndex != -1)
             {
 
