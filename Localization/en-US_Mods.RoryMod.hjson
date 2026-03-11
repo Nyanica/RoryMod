@@ -35,6 +35,16 @@ Items: {
 		DisplayName: Terra Horizon
 		Tooltip: ""
 	}
+
+	InfernalFociBangle: {
+		DisplayName: Infernal Foci Bangle
+		Tooltip: ""
+	}
+
+	RedZapinator: {
+		DisplayName: Red Zapinator
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -45,4 +55,12 @@ Projectiles: {
 	DarkSlash.DisplayName: Dark Slash
 	BloodySlash.DisplayName: Bloody Slash
 	SkyFractureProjectile.DisplayName: Sky Fracture Projectile
+	HighTideProjectile.DisplayName: High Tide Projectile
+}
+
+Buffs: {
+	BangleManaSickness: {
+		Description: Mods.RoryMod.Buffs.BangleManaSickness.Description
+		DisplayName: Bangle Mana Sickness
+	}
 }

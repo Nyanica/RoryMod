@@ -21,8 +21,8 @@ namespace RoryMod.Content.Items.Weapons
 			// - TODO: fact-check this claim 
 			Item.damage = 150;
 
-			// Rarity roughly on-par with
-			Item.SetShopValues(ItemRarityColor.Blue1, 3000);
+			// Rarity roughly on-par with Golem-tier stuff
+			Item.SetShopValues(ItemRarityColor.Yellow8, 200000);
 		}
 
         public override void AddRecipes()
