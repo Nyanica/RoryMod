@@ -23,6 +23,7 @@ namespace RoryMod.Content.Buffs
         {
             /*
             int manaSickIndex = player.FindBuffIndex(BuffID.ManaSickness);
+
             if (manaSickIndex != -1)
                 // if manasick
             {
