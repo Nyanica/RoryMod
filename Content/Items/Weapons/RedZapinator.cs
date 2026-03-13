@@ -17,9 +17,10 @@ namespace RoryMod.Content.Items.Weapons
 			Item.CloneDefaults(ItemID.ZapinatorOrange);
 
 
-			// 150 seems reasonable within progression
+			// 180 seems reasonable within progression
+			// Comparing it to the sniper rifle's 200 predominantly
 			// - TODO: fact-check this claim 
-			Item.damage = 150;
+			Item.damage = 180;
 
 			// Rarity roughly on-par with Golem-tier stuff
 			Item.SetShopValues(ItemRarityColor.Yellow8, 200000);
@@ -33,6 +34,14 @@ namespace RoryMod.Content.Items.Weapons
             recipe.AddIngredient(ItemID.ZapinatorOrange);
 			recipe.AddTile(TileID.MythrilAnvil);
             recipe.Register();
+        }
+
+        public override void ModifyManaCost(Player player, ref float reduce, ref float mult)
+        {
+            if (player.spaceGun == true)
+			{
+				mult = 0f;
+			}
         }
 
 		public override Vector2? HoldoutOffset() {
